@@ -1,0 +1,33 @@
+#error{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #e0f8eb;
+}
+#insideDiv{
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#error_Button{
+    margin-top: 2rem;
+    border: 2px solid black;
+    padding: 0.7rem;
+    border-radius: 0.8rem;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+#error_Button:hover{
+    background-color: white;
+    color: black;
+}
+
+#errorHeading{
+    font-size: 3rem;
+}

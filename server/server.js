@@ -32,4 +32,4 @@ app.get("/",(req, res)=>{
 
 //middleware
 app.use("/user" , userController);
-app.use("/userRoutes", signuploginController);
+app.use("/userRoutes", signuploginController)
